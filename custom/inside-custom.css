@@ -1,0 +1,53 @@
+/*
+==============================================
+字体
+==============================================
+*/
+
+/* 签名 */
+.φcy {
+    font-family: 'Josefin Sans', 'PingFang SC', 'Microsoft YaHei';
+}
+/* 归档、标签 */
+.φdm {
+    font-family: 'Josefin Sans', 'PingFang SC', 'Microsoft YaHei';
+}
+/* 首页文章列表块-标题 */
+.φcl {
+    font-family: 'Josefin Sans', 'PingFang SC', 'Microsoft YaHei';
+}
+/* 首页文章列表块-日期 */
+.φci {
+    font-family: 'Josefin Sans', 'PingFang SC';
+}
+
+
+/*
+==============================================
+归档、分类、标签 块
+==============================================
+*/
+.φdm span:first-child {
+    margin-bottom: .35rem !important;
+}
+.φdm {
+    padding: 0.5rem 0 !important;
+}
+
+
+/*
+==============================================
+文章页
+==============================================
+*/
+
+/* 超链接 */
+.φew .φe a {
+    border-bottom: 0px !important;
+    color: #25B864
+}
+
+/* 行内代码与代码块字体大小 */
+code, pre {
+    font-size: 100% !important;
+}
