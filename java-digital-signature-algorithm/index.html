@@ -5,19 +5,24 @@
 <script src="/config.c3ebb4744067d48c4788.js"></script>
 <!-- hexo injector head_begin end -->
     <meta charset="utf-8">
-    <title>陈予希</title>
+    <title>Java 数字签名算法 - 陈予希</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <link rel="canonical" href="http://www.chenyuxi.top/search/">
+    <link rel="canonical" href="http://www.chenyuxi.top/java-digital-signature-algorithm/">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="陈予希">
-<meta property="og:url" content="http://www.chenyuxi.top/search/index.html">
+    <meta name="description" content="数字签名算法可以看成是带秘钥的消息摘要算法，用于验证数据完整性、认证数据来源，并起到抗否认的作用。遵循私钥加签，公钥验签的规则，数字签名算法是非对称加密算法和消息摘要算法的结合体。数字签名算法主要包括RSA和DSA。这节记录下这两种算法在JDK8下的实现。 数字签名加签验签流程分为以下几步：  A在本地构建秘钥对，并将公钥发布给B； A使用私钥对数据进行签名； A发送签名和数据给B； B使用公钥对">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Java 数字签名算法">
+<meta property="og:url" content="http://www.chenyuxi.top/java-digital-signature-algorithm/index.html">
 <meta property="og:site_name" content="陈予希">
+<meta property="og:description" content="数字签名算法可以看成是带秘钥的消息摘要算法，用于验证数据完整性、认证数据来源，并起到抗否认的作用。遵循私钥加签，公钥验签的规则，数字签名算法是非对称加密算法和消息摘要算法的结合体。数字签名算法主要包括RSA和DSA。这节记录下这两种算法在JDK8下的实现。 数字签名加签验签流程分为以下几步：  A在本地构建秘钥对，并将公钥发布给B； A使用私钥对数据进行签名； A发送签名和数据给B； B使用公钥对">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://www.chenyuxi.top/images/Avatar.jpg">
+<meta property="article:published_time" content="2021-10-18T12:26:56.000Z">
+<meta property="article:modified_time" content="2021-10-18T04:30:09.577Z">
 <meta property="article:author" content="陈予希">
+<meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://www.chenyuxi.top/images/Avatar.jpg">
     
